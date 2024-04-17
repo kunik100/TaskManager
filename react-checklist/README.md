@@ -15,7 +15,7 @@ Task Manager je jednoduchá webová aplikace napsaná v Reactu, která umožňuj
 2. Označení úkolu jako hotového:
    - Klikněte na zaškrtávací políčko vedle názvu úkolu.
 3. Odebrání hotového úkolu:
-   - Klikněte na tlačítko "Odebrat úkol".
+   - Klikněte na zaškrtávací políčko vedle názvu úkolu a následně na tlačítko "Odebrat úkol".
 4. Přepínání mezi denním a nočním režimem:
    - Klikněte na tlačítko "Noční režim" nebo "Denní režim" v dolní části obrazovky.
 
