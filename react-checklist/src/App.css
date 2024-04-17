@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* světle modré pozadí */
+  color: #333; /* černý text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center; /* vycentrování obsahu na střed vertikálně */
+  align-items: center; /* vycentrování obsahu na střed horizontálně */
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: inherit; /* dědičná barva textu */
+}
+
+.toggle-dark-mode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.toggle-dark-mode:hover {
+  background-color: #357ebd; /* modré pozadí při najetí myší */
+}
+
+.dark-mode .toggle-dark-mode {
+  color: #fff; /* bílý text v nočním režimu */
+}
+
+.dark-mode .toggle-dark-mode:hover {
+  background-color: #4682b4; /* tmavé pozadí při najetí myší v nočním režimu */
+}
+
+.dark-mode {
+  background-color: #222; /* tmavé pozadí */
+  color: #fff; /* bílý text */
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s; /* přechodová animace pro změnu barvy pozadí */
+}
+
+button:hover {
+  background-color: #357ebd; /* tmavší odstín modré */
+}
+
+.dark-mode button {
+  background-color: #222; /* tmavé pozadí tlačítka v nočním režimu */
+  color: #fff; /* bílý text */
+}
+
+.dark-mode button:hover {
+  background-color: #357ebd; /* tmavší odstín modré při najetí myší v nočním režimu */
+}
+
+.bottom-buttons-container {
+  display: flex;
+  justify-content: space-around; /* nebo space-between */
+  margin-top: 20px; /* přidáme mez pro odstup od obsahu nad tlačítky */
+}
+
+.task-table {
+  border-collapse: separate;
+  border-spacing: 20px 5px; /* Horizontální mezera je 0, vertikální mezera je 10px */
+}
