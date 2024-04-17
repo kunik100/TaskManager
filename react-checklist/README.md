@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Task Manager je jednoduchá webová aplikace napsaná v Reactu, která umožňuje uživatelům spravovat seznam úkolů. Aplikace obsahuje několik funkcí, včetně možnosti přidávání, odstraňování a označování úkolů jako hotové. Dále umožňuje uživatelům přepínat mezi denním a nočním režimem pro lepší čitelnost a pohodlí.
 
-## Available Scripts
+## Funkce
+- Přidávání nových úkolů: Uživatelé mohou přidat nový úkol zadáním názvu úkolu do dialogového okna.
+- Označování úkolů jako hotové: Uživatelé mohou označit úkoly jako hotové pomocí zaškrtávacího políčka.
+- Odebírání úkolů: Hotové úkoly lze odebrat ze seznamu.
+- Přepínání mezi denním a nočním režimem: Uživatelé mohou přepínat mezi denním a nočním režimem pro lepší čitelnost a pohodlí.
 
-In the project directory, you can run:
+## Použití
+1. Přidání úkolu:
+   - Klikněte na tlačítko "Přidat úkol".
+   - Zadejte název nového úkolu do dialogového okna a potvrďte.
+2. Označení úkolu jako hotového:
+   - Klikněte na zaškrtávací políčko vedle názvu úkolu.
+3. Odebrání hotového úkolu:
+   - Klikněte na tlačítko "Odebrat úkol".
+4. Přepínání mezi denním a nočním režimem:
+   - Klikněte na tlačítko "Noční režim" nebo "Denní režim" v dolní části obrazovky.
 
-### `npm start`
+## Instalace
+1. Stáhněte si zdrojový kód aplikace z tohoto repozitáře.
+2. Otevřete složku s projektem ve svém oblíbeném textovém editoru.
+3. Otevřete terminál v kořenovém adresáři projektu.
+4. Spusťte příkaz `npm install` pro instalaci závislostí.
+5. Spusťte příkaz `npm start` pro spuštění aplikace v reálném čase.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Licence
+Tento projekt je licencován pod MIT licencí. Pro více informací si přečtěte soubor LICENSE.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Děkujeme za použití Task Manageru! Pokud máte nějaké dotazy nebo návrhy na vylepšení, neváhejte nás kontaktovat.
